@@ -1,0 +1,48 @@
+[
+    {
+        "imagen":"imagenes/th.jpg",
+        "titulo":"Patinetas",
+        "descripcion":"Acá hay patinetas"
+    },
+    {
+        "imagen":"imagenes/sash.jpg",
+        "titulo":"Sashley",
+        "descripcion":"Peluches muy bonitos"
+    },
+    {
+        "imagen":"imagenes/sans.jpg",
+        "titulo":"Sans",
+        "descripcion":"Peluches muy bonitos"
+    },
+    {
+        "imagen":"imagenes/rubik.jpg",
+        "titulo":"Rubik",
+        "descripcion":"Para resolver"
+    },
+    {
+        "imagen":"imagenes/mcr.jpg",
+        "titulo":"My Chemical Romance",
+        "descripcion":"Tu musica favorita"
+    },
+    {
+        "imagen":"imagenes/imagen2.jpg",
+        "titulo":"Oferta 1",
+        "descripcion":"Oferta oferta"
+    },
+    {
+        "imagen":"imagenes/imagen1.jpg",
+        "titulo":"Oferta 2",
+        "descripcion":"Oferta oferta"
+    },
+    {
+        "imagen":"imagenes/fnaf.jpg",
+        "titulo":"Remera",
+        "descripcion":"Five Nights At Freddy's"
+    },
+    {
+        "imagen":"imagenes/callejeros.jpg",
+        "titulo":"Remera",
+        "descripcion":"eeeeeeeeeeeeee"
+    }
+    
+]
