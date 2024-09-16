@@ -2,47 +2,56 @@
     {
         "imagen":"imagenes/th.jpg",
         "titulo":"Patinetas",
-        "descripcion":"Acá hay patinetas"
+        "descripcion":"Acá hay patinetas",
+        "precio":222
     },
     {
         "imagen":"imagenes/sash.jpg",
         "titulo":"Sashley",
-        "descripcion":"Peluches muy bonitos"
+        "descripcion":"Peluches muy bonitos",
+        "precio":1000000
     },
     {
         "imagen":"imagenes/sans.jpg",
         "titulo":"Sans",
-        "descripcion":"Peluches muy bonitos"
+        "descripcion":"Peluches muy bonitos",
+        "precio":333
     },
     {
         "imagen":"imagenes/rubik.jpg",
         "titulo":"Rubik",
-        "descripcion":"Para resolver"
+        "descripcion":"Para resolver",
+        "precio":101
     },
     {
         "imagen":"imagenes/mcr.jpg",
         "titulo":"My Chemical Romance",
-        "descripcion":"Tu musica favorita"
+        "descripcion":"Tu musica favorita",
+        "precio":911
     },
     {
         "imagen":"imagenes/imagen2.jpg",
         "titulo":"Oferta 1",
-        "descripcion":"Oferta oferta"
+        "descripcion":"Oferta oferta",
+        "precio":123
     },
     {
         "imagen":"imagenes/imagen1.jpg",
         "titulo":"Oferta 2",
-        "descripcion":"Oferta oferta"
+        "descripcion":"Oferta oferta",
+        "precio":456
     },
     {
         "imagen":"imagenes/fnaf.jpg",
         "titulo":"Remera",
-        "descripcion":"Five Nights At Freddy's"
+        "descripcion":"Five Nights At Freddy's",
+        "precio":1987
     },
     {
         "imagen":"imagenes/callejeros.jpg",
         "titulo":"Remera",
-        "descripcion":"eeeeeeeeeeeeee"
+        "descripcion":"eeeeeeeeeeeeee",
+        "precio":420
     }
     
 ]

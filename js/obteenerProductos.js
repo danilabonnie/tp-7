@@ -11,6 +11,7 @@ const mostrarProductos = (datos) => {
               <img src=${dato.imagen} class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">${dato.titulo}</h5>
+                <p class="card-text">$${dato.precio}</p>
                 <p class="card-text">${dato.descripcion}</p>
                 <a href="#" class="btn btn-primary">Aprende Mas</a>
               </div>

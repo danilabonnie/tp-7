@@ -16,6 +16,9 @@ const navbar = `
               <li class="nav-item">
                 <a class="nav-link" href="contactos.html">Contactanos</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="admin.html">Admin</a>
+              </li>
             </ul>
             <div id="salir" style="display: none;">
             <ul id="usuarioDropdown" class="navbar-nav mb-lg-0 d-flex">  
