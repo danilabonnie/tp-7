@@ -12,14 +12,17 @@
     
     <div id="contenedornav"></div>  
     <div class="container-fluid d-flex justify-content-center ">
-      <div class="row">
+      <div class="column">
 
         
             <div class="col "> 
                 <nav id="celu">
-                    <ul>
-                        <li><button class="btn btn-success" type="submit"><h3>Agregar Producto</h3></button></i>
+                  <button id="agregar" class="btn btn-success" type="submit"><h3>Agregar Producto</h3></button>
+                    <ul id="agregando" style="display: none;">
+                        <li>
                                 <ul class="lista">
+                                 <i class="bi bi-x-circle" id="cerrar2"></i>
+                                  
                                     <h3>Nuevo Producto</h3>
                                     <div class="input-group mb-3">
                                         <span class="input-group-text" id="inputGroup-sizing-default">Titulo</span>
@@ -38,66 +41,29 @@
                     </ul>
                 </nav>
             </div>  
-
-            <div class="col "> 
-                <nav id="celu">
-                    <ul>
-                        <li><button class="btn btn-danger" type="submit"><h3>Eliminar Producto</h3></button></i>
-                                <ul class="lista">
-                                    <h3>Eliminar Producto</h3>
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text" id="inputGroup-sizing-default">Titulo</span>
-                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                                      </div>
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text" id="inputGroup-sizing-default">Descripcion</span>
-                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                                      </div>
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text" id="inputGroup-sizing-default">Precio</span>
-                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                                      </div>
-                                    <button class="btn btn-danger" type="submit">Eliminar</button>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-
-            <div class="col "> 
-                <nav id="celu">
-                    <ul>
-                        <li><button class="btn btn-primary" type="submit"><h3>Editar Producto</h3></button></i>
-                                <ul class="lista">
-                                    <h3>Editar Producto</h3>
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text" id="inputGroup-sizing-default">Titulo</span>
-                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                                      </div>
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text" id="inputGroup-sizing-default">Descripcion</span>
-                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                                      </div>
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text" id="inputGroup-sizing-default">Precio</span>
-                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                                      </div>
-                                    <button class="btn btn-primary" type="submit">Editar</button>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+          
+          <div class="row">
+            <div id="contenedor" class="col d-flex flex-wrap justify-content-center"></div>
+            
+        
+  
+        
+        
+        </div>
+          </div>
         </div>  
       
          </div>
 
-
+        </div> 
 
          <div id="contenedorfooter"></div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="src/admin.js"></script>
     <script src="js/js.js"></script>
-    <script src="js/obteenerProductos.js"></script>
+    <script src="js/obtenerProdAdmin.js"></script>
     <script type="module" src="src/index.js"></script>
 </body>
 </html>

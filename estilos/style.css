@@ -1,9 +1,7 @@
 #celu{
     display: block;
 }
-.lista{
-    display: none;
-}
+
 nav ul li:hover>ul.lista{
     display: block;
 }
